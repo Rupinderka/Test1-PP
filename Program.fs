@@ -24,11 +24,15 @@ let filteredSum =
     |> List.filter (fun salary -> salary >= 50000.0 && salary <= 100000.0)
     |> List.reduce (+)
 
-printfn "Original salaries: %A" salaries  // This prints the original salary list
+printfn "Original salaries: %A" salaries 
 printfn "High-income salaries: %A" highIncomeSalaries
+printfn "Original salaries: %A" salaries 
 printfn "Taxes for all salaries: %A" taxes
+printfn "Original salaries: %A" salaries 
 printfn "Salaries incremented: %A" incrementedSalaries
+printfn "Original salaries: %A" salaries 
 printfn "Sum of salaries between $50,000 and $100,000: %f" filteredSum
+printfn "Original salaries: %A" salaries 
 
 let sumOfMultiplesOf3 n =
     let rec helper acc current =
